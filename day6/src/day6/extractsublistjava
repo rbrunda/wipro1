@@ -1,0 +1,15 @@
+package day6;
+import java.util.*;
+  public class extractsublist {
+  public static void main(String[] args) {
+  List<String> list_Strings = new ArrayList<String>();
+  list_Strings.add("blue");
+  list_Strings.add("Grey");
+  list_Strings.add("brown");
+  list_Strings.add("White");
+  list_Strings.add("Black");
+  System.out.println("Original list: " + list_Strings);
+  List<String> sub_List = list_Strings.subList(0, 3);
+  System.out.println("List of first three elements: " + sub_List);
+ }
+}
